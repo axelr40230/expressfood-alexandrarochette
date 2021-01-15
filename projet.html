@@ -6,13 +6,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Express Food - Alexandra Rochette - Openclassrooms</title>
         <link rel="stylesheet" type="text/css" href="src/css/styles.css">
+        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" data-auto-replace-svg="nest"></script>
     </head>
 </head>
 <body class="projet">
 <main>
     <header class="site-header">
             <p class="center-text">Ce site est une site réalisé dans le cadre du projet 4 d'OpenClassRooms. Me contacter : alexandrarochette40230@gmail.com</p>
-            <a href="index.html"><img src="src/img/logo-noir.png" alt="" class="logo"></a>
+            <p><a href="index.html"><img src="src/img/logo-noir.png" alt="" class="logo"></a></p>
+            <h1>Concevez la solution technique d'une application de restauration en ligne, ExpressFood</h1>
             <p>La toute jeune startup Express Food ambitionne de livrer des plats de qualité à
             domicile en moins de 20 minutes grâce à un réseau de livreurs à vélo.</p>
     </header>
@@ -22,69 +24,176 @@
                 Nous allons ensemble découvrir les étapes de création de votre base de données au travers de différents schémas :
             </p>
             <ul>
-                <li>Diagrammes de cas d’utilisation (création d’une commande, ajout d’un plat du jour, livraison d’une commande)</li>
-                <li>Diagramme de classes</li>
-                <li>Diagrammes de séquences (création d’une commande, ajout d’un plat du jour, livraison d’une commande)</li>
-                <li>Modèle de données</li>
+                <li>
+                    <ul class="green">Diagrammes de cas d’utilisation
+                        <li><a href="#cas1">Création d’une commande</a></li>
+                        <li><a href="#cas2">Ajout d’un plat du jour</a></li>
+                        <li><a href="#cas3">Livraison d’une commande)</a></li>
+                    </ul>
+                <li class="uppercase green"><a href="#classe">Diagramme de classes</a></li>
+                <ul class="uppercase green">Diagrammes de séquences
+                    <li><a href="#sequence1">Création d’une commande</a></li>
+                    <li><a href="#sequence2">Ajout d’un plat du jour</a></li>
+                    <li><a href="#sequence3">Livraison d’une commande)</a></li>
+                </ul>
+
+                <li class="uppercase green"><a href="#mpd">Modèle de données</a></li>
             </ul>
             <p>Puis, vous découvrirez la base de données avec des données fictives</p>
+            <p class="big">Let's go</p>
+            <p class="big"><i class="fas fa-angle-down"></i></p>
         </div>
     </section>
+    <hr>
     <section>
         <div>
-            <h2>Le diagramme de contexte</h2>
-            <p><img src="src/img/contexte.png"></p>
+            <h2  id="contexte">Le diagramme de contexte</h2>
+            <p>
+                <a href="#img1">
+                <img src="src/img/contexte.png">
+            </a>
+
+                <!-- lightbox container hidden with CSS -->
+                <a href="#contexte" class="lightbox" id="img1">
+                    <span style="background-image: url('src/img/contexte.png'), linear-gradient(to bottom, #fff, #fff)"></span>
+                </a>
+            </p>
         </div>
     </section>
+    <hr>
     <section>
         <div>
-            <h2>cas utilisation n°1 : création d'une commande</h2>
-            <p><img src="src/img/utilisation-creation-commande.png"></p>
+            <h2 id="cas1">cas utilisation n°1 : création d'une commande</h2>
+            <p>
+                <a href="#img2">
+                    <img src="src/img/utilisation-creation-commande.png">
+                </a>
+
+                <!-- lightbox container hidden with CSS -->
+                <a href="#cas1" class="lightbox" id="img2">
+                    <span style="background-image: url('src/img/utilisation-creation-commande.png'), linear-gradient(to bottom, #fff, #fff)"></span>
+                </a>
+            </p>
         </div>
     </section>
+    <hr>
     <section>
         <div>
-            <h2>cas utilisation n°2 : Ajout d'un plat</h2>
-            <p><img src="src/img/utilisation-ajout-plat.png"></p>
+            <h2 id="cas2">cas utilisation n°2 : Ajout d'un plat</h2>
+            <p>
+                <a href="#img3">
+                    <img src="src/img/utilisation-ajout-plat.png">
+                </a>
+
+                <!-- lightbox container hidden with CSS -->
+                <a href="#cas2" class="lightbox" id="img3">
+                    <span style="background-image: url('src/img/utilisation-ajout-plat.png'), linear-gradient(to bottom, #fff, #fff)"></span>
+                </a>
+            </p>
         </div>
     </section>
+    <hr>
     <section>
         <div>
-            <h2>cas utilisation n°3 : livraison d'une commande</h2>
-            <p><img src="src/img/utilisation-livraison.png"></p>
+            <h2  id="cas3">cas utilisation n°3 : livraison d'une commande</h2>
+            <p>
+                <a href="#img4">
+                    <img src="src/img/utilisation-livraison.png">
+                </a>
+
+                <!-- lightbox container hidden with CSS -->
+                <a href="#cas3" class="lightbox" id="img4">
+                    <span style="background-image: url('src/img/utilisation-livraison.png'), linear-gradient(to bottom, #fff, #fff)"></span>
+                </a>
+            </p>
         </div>
     </section>
+    <hr>
     <section>
         <div>
-            <h2>diagramme de classe</h2>
-            <p><img src="src/img/classes.png"></p>
+            <h2 id="classe">diagramme de classe</h2>
+            <p>
+                <a href="#img5">
+                    <img src="src/img/classes.png">
+                </a>
+
+                <!-- lightbox container hidden with CSS -->
+                <a href="#classe" class="lightbox" id="img5">
+                    <span style="background-image: url('src/img/classes.png'), linear-gradient(to bottom, #fff, #fff)"></span>
+                </a>
+            </p>
         </div>
     </section>
+    <hr>
     <section>
         <div>
-            <h2>diagramme de séquence n°1 : création d'une commande</h2>
-            <p><img src="src/img/sequence-commander.png"></p>
+            <h2 id="sequence1">diagramme de séquence n°1 : création d'une commande</h2>
+            <p>
+                <a href="#img6">
+                    <img src="src/img/sequence-commander.png">
+                </a>
+
+                <!-- lightbox container hidden with CSS -->
+                <a href="#sequence1" class="lightbox" id="img6">
+                    <span style="background-image: url('src/img/sequence-commander.png'), linear-gradient(to bottom, #fff, #fff)"></span>
+                </a>
+            </p>
         </div>
     </section>
+    <hr>
     <section>
         <div>
-            <h2>diagramme de séquence n°2 : ajout d'un plat</h2>
-            <p><img src="src/img/sequence-ajout-plat.png"></p>
+            <h2 id="sequence2">diagramme de séquence n°2 : ajout d'un plat</h2>
+            <p>
+                <a href="#img7">
+                    <img src="src/img/sequence-ajout-plat.png">
+                </a>
+
+                <!-- lightbox container hidden with CSS -->
+                <a href="#sequence2" class="lightbox" id="img7">
+                    <span style="background-image: url('src/img/sequence-ajout-plat.png'), linear-gradient(to bottom, #fff, #fff)"></span>
+                </a>
+            </p>
         </div>
     </section>
+    <hr>
     <section>
         <div>
-            <h2>diagramme de séquence n°3 : livraison d'une commande</h2>
-            <p><img src="src/img/sequence-livraison-commande.png"></p>
+            <h2 id="sequence3">diagramme de séquence n°3 : livraison d'une commande</h2>
+            <p>
+                <a href="#img8">
+                    <img src="src/img/sequence-livraison-commande.png">
+                </a>
+
+                <!-- lightbox container hidden with CSS -->
+                <a href="#sequence3" class="lightbox" id="img8">
+                    <span style="background-image: url('src/img/sequence-livraison-commande.png'), linear-gradient(to bottom, #fff, #fff)"></span>
+                </a>
+            </p>
         </div>
     </section>
+    <hr>
     <section>
         <div>
-            <h2>modèle physique de données</h2>
-            <p><img src="src/img/mpd.png"></p>
+            <h2 id="mpd">modèle physique de données</h2>
+            <p>
+                <a href="#img9">
+                    <img src="src/img/mpd.png">
+                </a>
+
+                <!-- lightbox container hidden with CSS -->
+                <a href="#mdp" class="lightbox" id="img9">
+                    <span style="background-image: url('src/img/mpd.png'), linear-gradient(to bottom, #fff, #fff)"></span>
+                </a>
+            </p>
         </div>
     </section>
+    <hr>
     <footer>
+        <p class="uppercase size-font">Découvrons ensemble et en direct la base de données</p>
+        <p class="big"><i class="fas fa-table"></i></p>
+        <!-- thumbnail image wrapped in a link -->
+
 
     </footer>
 </main>
