@@ -190,6 +190,10 @@
     </section>
     <hr>
     <footer>
+        <p>Remarque sur la sécurisation des mots de passe :<br>
+        J'ai utilisé le hachage de mot de passe grâce à la requête SQL suivante :<br>
+            UPDATE nom_de_la_table SET mot_de_passe = SHA1('mot_de_passe');
+        </p>
         <p class="uppercase size-font"><a class="green" href="http://localhost/phpmyadmin/db_structure.php?server=1&db=express_food">Découvrons ensemble et en direct la base de données</a></p>
         <p class="big"><i class="fas fa-table"></i></p>
         <!-- thumbnail image wrapped in a link -->
